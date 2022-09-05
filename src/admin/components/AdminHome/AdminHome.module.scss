@@ -1,0 +1,30 @@
+.sidebar {
+  padding: 10px 0;
+  :global(.iconfont) {
+    margin-right: 10px;
+  }
+}
+
+.header {
+  padding: 0 20px;
+  :global(.iconfont) {
+    margin-left: -30px;
+    color: #FFF;
+    cursor: pointer;
+  }
+}
+
+.content {
+  padding: 20px;
+  min-height: 900px !important;
+}
+
+.btn {
+  padding-top: 20px;
+  margin-top: 20px;
+  border-top: 1px dashed #ccc;
+  text-align: center;
+  .reset{
+    margin-left: 20px;
+  }
+}

@@ -1,0 +1,126 @@
+import styles from './style.module.scss';
+
+const BlogList = () => {
+  return (
+      <div className="wrapper">
+        <ul className={styles.list}>
+          <li className={styles.item}>
+            <img className={styles.img}
+                 src="https://asia-northeast1-zenn-dev-production.cloudfunctions.net/twemoji/💡.svg"
+                 alt="React"/>
+            <h4 className={styles.title}>01. React Blog</h4>
+            <p className={styles.desc}>
+              React (リアクト) は、Meta（旧Facebook）とコミュニティによって開発されているユーザインタフェース構築のためのJavaScriptライブラリである。
+              React.jsまたはReactJSの名称でも知られている。Reactはシングルページアプリケーションやモバイルアプリケーションの開発におけるベースとして使用することができる。
+              複雑なReactアプリケーションでは通常、状態管理（英語版）・ルーティング・APIとの対話のための追加のライブラリが必要となる。
+            </p>
+          </li>
+          <li className={styles.item}>
+            <img className={styles.img}
+                 src="https://asia-northeast1-zenn-dev-production.cloudfunctions.net/twemoji/📚.svg"
+                 alt="Vue.js"/>
+
+            <h4 className={styles.title}>02.Vue Blog</h4>
+            <p className={styles.desc}>Vue.js（ヴュー・ジェイエス）またはVueは、
+              Webアプリケーションにおけるユーザーインターフェイスを構築するための、オープンソースのJavaScriptフレームワークである。
+              他のJavaScriptライブラリを使用するプロジェクトへの導入において、容易になるように設計されている。
+              一方で高機能なシングルページアプリケーション（SPA）を構築することも可能である。
+            </p>
+          </li>
+          <li className={styles.item}>
+            <img className={styles.img}
+                 src="https://asia-northeast1-zenn-dev-production.cloudfunctions.net/twemoji/📔.svg"
+                 alt="Javascript"/>
+            <h4 className={styles.title}>03. Javascript Blog</h4>
+            <p className={styles.desc}>JavaScript（ジャバスクリプト）とは、プログラミング言語のひとつである。
+              JavaScriptはプロトタイプベースのオブジェクト指向スクリプト言語であるが、
+              クラスなどのクラスベースに見られる機能も取り込んでいる。
+              利用される場面はWebサイト・Webアプリ・バックエンド・デスクトップアプリ・モバイルアプリなど、ブラウザからサーバ、
+              デスクトップからスマートフォンまで多岐にわたっている。
+            </p>
+          </li>
+          <li className={styles.item}>
+            <img className={styles.img}
+                 src="https://asia-northeast1-zenn-dev-production.cloudfunctions.net/twemoji/📝.svg"
+                 alt="Typescript"/>
+            <h4 className={styles.title}>04. Typescript Blog</h4>
+            <p className={styles.desc}>TypeScript はマイクロソフトによって開発され、
+              メンテナンスされているフリーでオープンソースのプログラミング言語である。
+              TypeScriptはJavaScriptに対して、
+              省略も可能な静的型付けとクラスベースオブジェクト指向を加えた厳密なスーパーセットとなっている。
+              C#のリードアーキテクトであり、
+              DelphiとTurbo Pascalの開発者でもあるアンダース・ヘルスバーグがTypeScriptの開発に関わっている。
+              TypeScriptはクライアントサイド、
+              あるいはサーバサイド (Node.js) で実行されるJavaScriptアプリケーションの開発に利用できる。
+            </p>
+          </li>
+          <li className={styles.item}>
+            <img className={styles.img}
+                 src="https://asia-northeast1-zenn-dev-production.cloudfunctions.net/twemoji/🚇.svg"
+                 alt="Vue3 系统入门与项目实战"/>
+            <h4 className={styles.title}>05. Java Blog</h4>
+            <p className={styles.desc}>Java（ジャバ、ジャヴァ）は、
+              汎用プログラミング言語とソフトウェアプラットフォームの双方を指している総称ブランドである。
+              オラクルおよびその関連会社の登録商標である。1996年にサン・マイクロシステムズによって市場リリースされ、
+              2010年に同社がオラクルに吸収合併された事によりJavaの版権もそちらに移行した。</p>
+          </li>
+          <li className={styles.item}>
+            <img className={styles.img}
+                 src="https://asia-northeast1-zenn-dev-production.cloudfunctions.net/twemoji/📲.svg"
+                 alt="Swift"/>
+            <h4 className={styles.title}>06. Swift Blog</h4>
+            <p className={styles.desc}>Swift（スウィフト）は、AppleのiOSおよびmacOS、
+              Linux、Windowsで利用出来るプログラミング言語である。Worldwide Developers Conference (WWDC) 2014で発表された。
+              Apple製OS上で動作するアプリケーションの開発に従来から用いられていたObjective-CやObjective-C++、
+              C言語と共存できるように、共通のObjective-Cランタイムライブラリが使用されている。</p>
+          </li>
+          <li className={styles.item}>
+            <img className={styles.img}
+                 src="https://asia-northeast1-zenn-dev-production.cloudfunctions.net/twemoji/📖.svg"
+                 alt="iOS"/>
+            <h4 className={styles.title}>07. iOS Blog</h4>
+            <p className={styles.desc}>iOS（アイオーエス）とは、Appleが開発および提供する、
+              iPhoneとiPod touch向けのモバイルオペレーティングシステム（組み込みプラットフォーム）である。
+              2022年時点で、最も新しいバージョンであるiOS 15は、iPhone 6sやiPhone 6s Plus、
+              iPhone SE (第1世代)とそれ以降に発売されたiPhone、iPod touch (第7世代)に対応している。
+            </p>
+          </li>
+          <li className={styles.item}>
+            <img className={styles.img}
+                 src="https://asia-northeast1-zenn-dev-production.cloudfunctions.net/twemoji/⚡.svg"
+                 alt="Kotlin"/>
+            <h4 className={styles.title}>08. Kotlin Blog</h4>
+            <p className={styles.desc}>
+              Kotlinは、ロシア・サンクトペテルブルクにある、ジェットブレインズの研究所で生まれた。
+              ジェットブレインズ社は Java、Ruby、Python などのプログラミング言語による開発環境などを開発して販売してきた。
+              Kotlinは、同社の経験を活かしJavaをもっと簡潔・安全になるように改良した産業利用向け汎用言語として開発され、
+              2011年7月20日に発表された。
+            </p>
+          </li>
+          <li className={styles.item}>
+            <img className={styles.img}
+                 src="https://asia-northeast1-zenn-dev-production.cloudfunctions.net/twemoji/🌐.svg"
+                 alt="Android"/>
+            <h4 className={styles.title}>09. Android Blog</h4>
+            <p className={styles.desc}>Android（アンドロイド）は、Googleが開発した汎用モバイルオペレーティングシステムである。
+              Linuxカーネルやオープンソースソフトウェアがベースで、
+              主にスマートフォンやタブレットなどのタッチスクリーンモバイルデバイス向けにデザインされている。
+              PC用にはAndroid-x86、テレビ用にはAndroid TV、
+              自動車用にはAndroid Auto、ウェアラブルデバイス用にはWear OS（旧称Android Wear）がある。
+              世界一のシェアを持つモバイルオペレーティングシステムであり、2017年5月時点で20億人を超える月間アクティブユーザーがいる。
+            </p>
+          </li>
+          <li className={styles.item}>
+            <img className={styles.img}
+                 src="https://asia-northeast1-zenn-dev-production.cloudfunctions.net/twemoji/🌃.svg"
+                 alt="Flutter"/>
+            <h4 className={styles.title}>10. Flutter Blog</h4>
+            <p className={styles.desc}>Flutter（フラッター）は、Googleによって開発されたフリーかつオープンソースのUIのSDKである。単一のコードベースから、Android、iOS、Linux、macOS、Windows、Google Fuchsia向けのクロスプラットフォームアプリケーションを開発するために利用される。2018年12月4日、ロンドンで開催されたFlutter Live '18にて、初の正式版となるFlutter 1.0のリリースが発表された。
+            </p>
+          </li>
+        </ul>
+      </div>
+  );
+}
+
+export default BlogList
